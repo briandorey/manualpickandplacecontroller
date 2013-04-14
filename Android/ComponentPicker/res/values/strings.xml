@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Component Picker</string>
+    <string name="Button1">Diode</string>
+	<string name="Button2">Dual Mosfet</string>
+	<string name="Button3">Single Mosfet</string>
+	<string name="Button4">10µF</string>
+	<string name="Button5">100nF</string>
+	<string name="Button6">10K</string>
+	<string name="Button7">6K8</string>
+	<string name="Button8">1K</string>
+	<string name="Button9">100R</string>
+	<string name="Button10">10K x 4</string>
+	<string name="Button11">2K2 x 4</string>
+	<string name="Button12">12</string>
+	<string name="Button13">13</string>
+	<string name="Button14">14</string>
+	<string name="Button15">15</string>
+	<string name="ButtonLeft">&lt;&lt;&lt;&lt;</string>
+	<string name="ButtonRight">&gt;&gt;&gt;&gt;</string>
+	<string name="menu_open">Open</string>
+	<string name="menu_close">Close</string>
+	<string name="menu_reset">Reset Picker</string>
+</resources>
