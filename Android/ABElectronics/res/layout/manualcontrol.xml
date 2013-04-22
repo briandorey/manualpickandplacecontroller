@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:orientation="vertical" >
+
+       <LinearLayout
+        android:id="@+id/wrapper"
+        android:layout_width="fill_parent" android:weightSum="1"
+        android:orientation="vertical" android:layout_height="fill_parent">
+        <LinearLayout android:id="@+id/LinearLayout02" android:layout_width="match_parent" android:layout_weight="0.33" android:layout_height="0dp">
+            <Button android:id="@+id/Button01"  android:drawableTop="@drawable/signaldiode" android:text="@string/Button1"  android:textSize="18sp" android:layout_width="0dp"  android:layout_weight="1" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button02"  android:drawableTop="@drawable/dualfet" android:text="@string/Button2"  android:textSize="18sp" android:layout_width="0dp"  android:layout_weight="1" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button03" android:drawableTop="@drawable/singlefet" android:text="@string/Button3"  android:textSize="18sp" android:layout_width="0dp"  android:layout_weight="1" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button04" android:drawableTop="@drawable/cap10uf" android:text="@string/Button4"  android:textSize="18sp" android:layout_width="0dp"  android:layout_weight="1" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button05" android:drawableTop="@drawable/cap100nf" android:text="@string/Button5"  android:textSize="18sp" android:layout_width="0dp"  android:layout_weight="1" android:layout_height="fill_parent"></Button>
+
+        </LinearLayout>
+        <LinearLayout android:id="@+id/LinearLayout01" android:layout_width="match_parent" android:layout_weight="0.33" android:layout_height="0dp">
+            <Button android:id="@+id/Button06" android:drawableTop="@drawable/res10k" android:text="@string/Button6"  android:textSize="20sp" android:layout_width="0dp" android:layout_weight="1" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button07" android:drawableTop="@drawable/res6k8" android:text="@string/Button7"  android:textSize="20sp" android:layout_width="0dp" android:layout_weight="1" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button08" android:drawableTop="@drawable/res1k" android:text="@string/Button8"  android:textSize="20sp" android:layout_width="0dp" android:layout_weight="1" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button09" android:drawableTop="@drawable/res100r" android:text="@string/Button9"  android:textSize="20sp" android:layout_width="0dp" android:layout_weight="1" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button10" android:drawableTop="@drawable/res10kx4" android:text="@string/Button10"  android:textSize="20sp" android:layout_width="0dp" android:layout_weight="1" android:layout_height="fill_parent"></Button>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_weight="0.33" android:layout_height="0dp">
+            <Button android:id="@+id/Button11" android:drawableTop="@drawable/res2k2x4" android:text="@string/Button11"  android:textSize="20sp" android:layout_weight="1" android:layout_width="0dp" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button12" android:text="@string/Button12"  android:textSize="20sp" android:layout_weight="1" android:layout_width="0dp" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button13" android:text="@string/Button13"  android:textSize="20sp" android:layout_weight="1" android:layout_width="0dp" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button14" android:text="@string/Button14"  android:textSize="20sp" android:layout_weight="1" android:layout_width="0dp" android:layout_height="fill_parent"></Button>
+            <Button android:id="@+id/Button15" android:text="@string/Button15"  android:textSize="20sp" android:layout_weight="1" android:layout_width="0dp" android:layout_height="fill_parent"></Button>
+        </LinearLayout>
+        
+    </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"  android:layout_weight="0.75" >
+        <Button android:id="@+id/ButtonLeft" android:text="@string/ButtonLeft"  android:textSize="30sp" 
+            android:layout_weight="0.33"
+             android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+            <Button android:id="@+id/ButtonRight" android:text="@string/ButtonRight"  
+                android:textSize="30sp"  android:layout_width="fill_parent"  android:layout_weight="0.33" android:layout_height="wrap_content"></Button>
+            <com.briandorey.projects.abelectronics.RotaryKnobView 
+   android:id="@+id/jogView" android:layout_weight="0.33"
+  android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
